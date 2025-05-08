@@ -110,11 +110,17 @@ class TodoPage extends StatelessWidget {
                       return ListView.builder(
                         itemCount: state.todos.length,
                         itemBuilder: (context,index){
-                          
+                          final todo = state.todos[index];
+                          return Container(
+                            margin: EdgeInsets.only(bottom: 8.0),
+                            padding: EdgeInsets.all(16.0),
+                            
+                          );
                         }
-                      )
+                      );
                     }
-                  })
+                  }
+                )
               )
             ],
           ),
