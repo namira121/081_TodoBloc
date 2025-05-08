@@ -35,7 +35,13 @@ class TodoPage extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(width: 16.0,)
+                  SizedBox(width: 16.0,),
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: onPressed, 
+                      child: child
+                    )
+                  )
                 ],
               )
             ],
