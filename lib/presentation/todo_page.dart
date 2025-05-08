@@ -22,7 +22,9 @@ class TodoPage extends StatelessWidget {
                     children: [
                       Text('Selected Date'),
                       BlocBuilder<TodoBloc, TodoState>(
-                        
+                        builder: (context,state){
+                          
+                        }
                       )
                     ],
                   )
