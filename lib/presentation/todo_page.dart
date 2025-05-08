@@ -20,7 +20,10 @@ class TodoPage extends StatelessWidget {
                 children: [
                   Column(
                     children: [
-                      Text('Selected Date')
+                      Text('Selected Date'),
+                      BlocBuilder<TodoBloc, TodoState>(
+                        
+                      )
                     ],
                   )
                 ],
