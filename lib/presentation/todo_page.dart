@@ -11,7 +11,15 @@ class TodoPage extends StatelessWidget {
     final _controller = TextEditingController();
     return Scaffold(
       body: SafeArea(
-        child: child),
+        child: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        )
+      ),
     );
   }
 }
