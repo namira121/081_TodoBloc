@@ -52,7 +52,7 @@ class TodoPage extends StatelessWidget {
                           }
                         });
                       }, 
-                      child: child
+                      child: Text('Select Date'),
                     )
                   )
                 ],
