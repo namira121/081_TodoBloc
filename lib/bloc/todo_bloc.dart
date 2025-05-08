@@ -34,6 +34,7 @@ class TodoBloc extends Bloc<TodoEvent,TodoState>{
             date: updatedTodos[event.index].date,
             isCompleted: !updatedTodos[event.index].isCompleted,
           );
+          emit(TodoLoaded(todos: updatedTodos, selectedDate: currentState.selectedDate));
         }
       }
     });
