@@ -1,3 +1,5 @@
+import '../model/todo.dart';
+
 sealed class TodoState {}
 
 final class TodoInitial extends TodoState{}
