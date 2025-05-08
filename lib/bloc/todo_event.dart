@@ -8,3 +8,9 @@ final class TodoEventAdd extends TodoEvent{
   //membuat constructor untuk addTodo
   TodoEventAdd({required this.title, required this.date});
 }
+
+final class TodoEventComplete extends TodoEvent { //untuk mengganti status
+  final int index; //untuk membaca array todo
+
+  TodoEventComplete({required this.index}); //constructor untuk membuat event mengganti status
+}
