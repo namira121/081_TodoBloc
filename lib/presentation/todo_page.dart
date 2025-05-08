@@ -130,7 +130,8 @@ class TodoPage extends StatelessWidget {
                                         fontSize: 16,
                                         fontWeight: FontWeight.bold
                                       ),
-                                    )
+                                    ),
+                                    SizedBox(height: 4.0,)
                                   ],
                                 )
                               ],
