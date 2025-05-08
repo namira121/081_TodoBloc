@@ -1,4 +1,4 @@
-import '../model/todo.dart';
+part of "todo_bloc.dart";
 
 sealed class TodoState {}
 
