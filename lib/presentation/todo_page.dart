@@ -156,12 +156,15 @@ class TodoPage extends StatelessWidget {
                                     context.read<TodoBloc>().add(
                                       TodoEventComplete(index: index),
                                     );
-                                  })
+                                  }
+                                ),
                               ],
                             ),
                           );
-                        }
+                        },
                       );
+                    } else{
+                      return Center(child: Text('No Todos available'));
                     }
                   }
                 )
