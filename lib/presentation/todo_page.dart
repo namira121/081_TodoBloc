@@ -96,7 +96,8 @@ class TodoPage extends StatelessWidget {
                     )
                   ],
                 )
-              )
+              ),
+              SizedBox(height: 16.0,)
             ],
           ),
         )
