@@ -16,7 +16,15 @@ class TodoPage extends StatelessWidget {
           child: Column(
             children: [
               Text('Todo List'),
-              
+              Row(
+                children: [
+                  Column(
+                    children: [
+                      Text('Selected Date')
+                    ],
+                  )
+                ],
+              )
             ],
           ),
         )
