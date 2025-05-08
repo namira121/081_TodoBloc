@@ -123,6 +123,15 @@ class TodoPage extends StatelessWidget {
                               children: [
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      todo.title,
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold
+                                      ),
+                                    )
+                                  ],
                                 )
                               ],
                             ),
