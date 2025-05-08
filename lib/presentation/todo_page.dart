@@ -38,7 +38,14 @@ class TodoPage extends StatelessWidget {
                   SizedBox(width: 16.0,),
                   Expanded(
                     child: ElevatedButton(
-                      onPressed: onPressed, 
+                      onPressed: (){
+                        showDatePicker(
+                          context: context, 
+                          initialDate: DateTime.now(),
+                          firstDate: DateTime(2000), 
+                          lastDate: DateTime(2100)
+                        )
+                      }, 
                       child: child
                     )
                   )
